@@ -13,3 +13,10 @@ $(document).ready(function() {
         };
 	});
 });
+
+const elements = document.getElementsByClassName('about__item');
+if (window.innerWidth <= 575.98) {
+    for (let i = 0; i < elements.length; i++) {
+    elements[i].classList.add('disabled');
+    }
+}
