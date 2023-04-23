@@ -524,6 +524,9 @@ header .header__container .header__burger {
 .about .about__container {
   padding: 42px 16px 108px;
 }
+.about .about__container .block-header {
+  padding: 18px 0 38px 0;
+}
 .about .about__container .block-header .block-header__line {
   margin: 0 auto 38px;
 }
@@ -531,7 +534,6 @@ header .header__container .header__burger {
   font-family: "Raleway";
   font-size: 18px;
   line-height: 21px;
-  margin: 0 0 38px 0;
   text-align: center;
 }
 .about .about__container .about__row {
@@ -588,13 +590,15 @@ header .header__container .header__burger {
   .about .about__container {
     padding: 29px 16px 59px;
   }
+  .about .about__container .block-header {
+    padding: 18px 0 33px 0;
+  }
   .about .about__container .block-header .block-header__line {
     margin: 0 auto 33px;
   }
   .about .about__container .block-header .block-header__text {
     font-size: 14px;
     line-height: 16px;
-    margin: 0 0 33px 0;
   }
   .about .about__container .about__row {
     padding: 48px 0 0 0;
@@ -616,22 +620,22 @@ header .header__container .header__burger {
   }
 }
 @media (max-width: 767.98px) {
+  .about .about__container .block-header {
+    padding: 18px 0 20px 0;
+  }
   .about .about__container .block-header .block-header__line {
     margin: 0 auto 20px;
-  }
-  .about .about__container .block-header .block-header__text {
-    margin: 0 0 20px 0;
   }
   .about .about__container .about__row {
     padding: 20px 0 0 0;
   }
 }
 @media (max-width: 575.98px) {
+  .about .about__container .block-header {
+    padding: 18px 0 17px 0;
+  }
   .about .about__container .block-header .block-header__line {
     margin: 0 auto 17px;
-  }
-  .about .about__container .block-header .block-header__text {
-    margin: 0 0 17px 0;
   }
   .about .about__container .about__row {
     flex-direction: column;
@@ -870,5 +874,124 @@ header .header__container .header__burger {
   }
   .service .service__container .service__row .service__item .service__description {
     width: 73.2638888889%;
+  }
+}
+.design {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/design.png");
+  background-size: auto, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.design .design__container {
+  padding: 42px 16px 70px;
+}
+.design .design__container .design__photos {
+  position: relative;
+  padding: 75px 0 0 0;
+}
+.design .design__container .design__photos .design__tablet {
+  position: relative;
+  display: block;
+  width: 56.4102564103%;
+  height: auto;
+  margin: 0 auto;
+}
+.design .design__container .design__photos .design__tablet img {
+  width: 100%;
+}
+.design .design__container .design__photos .design__tablet:before {
+  content: "";
+  position: absolute;
+  width: 107%;
+  height: 106%;
+  top: -4%;
+  left: -3.5%;
+  background-image: url("../img/icon/design-tablet_frame.svg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.design .design__container .design__photos .design__phone {
+  position: absolute;
+  display: block;
+  width: 17.094017094%;
+  height: auto;
+  right: 16.4957264957%;
+  bottom: -21.7142857143%;
+}
+.design .design__container .design__photos .design__phone img {
+  width: 100%;
+}
+.design .design__container .design__photos .design__phone:before {
+  content: "";
+  position: absolute;
+  width: 107%;
+  height: 107%;
+  top: -2%;
+  left: -3.5%;
+  background-image: url("../img/icon/design-phone_frame.svg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1199.98px) {
+  .design .design__container {
+    padding: 29px 16px 48px;
+  }
+  .design .design__container .design__photos {
+    padding: 50px 0 0 0;
+  }
+  .design .design__container .design__photos .design__tablet {
+    width: 45.060483871%;
+  }
+  .design .design__container .design__photos .design__phone {
+    width: 13.7096774194%;
+    right: 23%;
+  }
+}
+@media (max-width: 767.98px) {
+  .design .design__container {
+    padding: 29px 16px 48px;
+  }
+  .design .design__container .design__photos {
+    padding: 50px 0 0 0;
+  }
+  .design .design__container .design__photos .design__tablet {
+    width: 70%;
+  }
+  .design .design__container .design__photos .design__phone {
+    width: 20%;
+    right: 10%;
+    bottom: -18%;
+  }
+}
+@media (max-width: 575.98px) {
+  .design {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/design-mobile.png");
+  }
+  .design .design__container {
+    padding: 43px 16px 25px;
+  }
+  .design .design__container .design__photos {
+    padding: 45px 0 0 0;
+  }
+  .design .design__container .design__photos .design__tablet {
+    width: 85%;
+  }
+  .design .design__container .design__photos .design__phone {
+    width: 25.3%;
+    right: 3%;
+    bottom: -12%;
+  }
+}
+@media (max-width: 399.98px) {
+  .design .design__container .design__photos .design__tablet {
+    width: 100%;
+  }
+  .design .design__container .design__photos .design__phone {
+    width: 29.7%;
+    right: 8%;
+    bottom: -22%;
   }
 }
