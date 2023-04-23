@@ -26,7 +26,6 @@ h3 {
   font-size: 30px;
   line-height: 44px;
   margin: 0 0 37px 0;
-  text-align: center;
 }
 
 h4 {
@@ -35,7 +34,6 @@ h4 {
   font-size: 36px;
   line-height: 42px;
   margin: 0 0 39px 0;
-  text-align: center;
 }
 
 h5 {
@@ -53,6 +51,7 @@ h6 {
 
 .block-header {
   padding: 18px 0 0 0;
+  text-align: center;
 }
 
 .block-header__line {
@@ -530,12 +529,6 @@ header .header__container .header__burger {
 .about .about__container .block-header .block-header__line {
   margin: 0 auto 38px;
 }
-.about .about__container .block-header .block-header__text {
-  font-family: "Raleway";
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-}
 .about .about__container .about__row {
   display: flex;
   justify-content: space-between;
@@ -595,10 +588,6 @@ header .header__container .header__burger {
   }
   .about .about__container .block-header .block-header__line {
     margin: 0 auto 33px;
-  }
-  .about .about__container .block-header .block-header__text {
-    font-size: 14px;
-    line-height: 16px;
   }
   .about .about__container .about__row {
     padding: 48px 0 0 0;
@@ -993,5 +982,237 @@ header .header__container .header__burger {
     width: 29.7%;
     right: 8%;
     bottom: -22%;
+  }
+}
+.we-do .we-do__container {
+  padding: 42px 16px 114px;
+}
+.we-do .we-do__container .block-header {
+  padding: 18px 0 38px 0;
+}
+.we-do .we-do__container .block-header .block-header__line {
+  margin: 0 auto 38px;
+}
+.we-do .we-do__container .we-do__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0 0 0;
+}
+.we-do .we-do__container .we-do__row .we-do__photo {
+  width: 48.7179487179%;
+  background-image: url("../img/we-do-photo.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.we-do .we-do__container .we-do__row .we-do__list {
+  width: 48.7179487179%;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item {
+  border: 1px solid #C6CBCD;
+  margin: 0 0 3.606557377% 0;
+  height: 19.0476190476%;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item:last-child {
+  margin: 0;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible {
+  display: flex;
+  align-items: center;
+  padding: 0 14px 0 18px;
+  height: 100%;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible img {
+  max-width: 42px;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__title {
+  margin: 0 0 0 40px;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__button {
+  position: relative;
+  margin-left: auto;
+  margin-right: 0;
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__button:before {
+  content: url("../img/icon/we-do-arrow.svg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease 0s;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__button.active:before {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  transition: transform 0.3s ease 0s;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible:has(.we-do__button.active) {
+  height: 36.0784313725%;
+  border-bottom: 1px solid #C6CBCD;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible {
+  display: none;
+  padding: 0 60px 0 22px;
+  margin: 17px 24px 17px 0;
+  height: 50%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible.active {
+  display: block;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible::-webkit-scrollbar-thumb {
+  background-color: #95E1D3;
+}
+.we-do .we-do__container .we-do__row .we-do__list .we-do__item:has(.we-do__invisible.active) {
+  height: 52.7950310559%;
+}
+
+@media (max-width: 1200.98px) {
+  .we-do .we-do__container {
+    padding: 86px 16px 88px;
+  }
+  .we-do .we-do__container .block-header {
+    padding: 18px 0 33px 0;
+  }
+  .we-do .we-do__container .block-header .block-header__line {
+    margin: 0 auto 33px;
+  }
+  .we-do .we-do__container .we-do__row {
+    padding: 36px 0 0 0;
+  }
+  .we-do .we-do__container .we-do__row .we-do__photo {
+    width: 48.9919354839%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list {
+    width: 48.9919354839%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item {
+    height: 19.0709046455%;
+    margin: 0 0 3.9119804401% 0;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible {
+    padding: 0 12px 0 16px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible img {
+    max-width: 36px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__title {
+    margin: 0 0 0 34px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__button {
+    width: 36px;
+    height: 36px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible:has(.we-do__button.active) {
+    height: 36.1111111111%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible {
+    padding: 0 51px 0 22px;
+    margin: 21px 21px 21px 0;
+    height: 47%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item:has(.we-do__invisible.active) {
+    height: 52.8117359413%;
+  }
+}
+@media (max-width: 991.98px) {
+  .we-do .we-do__container {
+    padding: 60px 16px 50px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible {
+    padding: 0 30px 0 22px;
+    margin: 14px 25px 14px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .we-do .we-do__container .block-header {
+    padding: 18px 0 20px 0;
+  }
+  .we-do .we-do__container .block-header .block-header__line {
+    margin: 0 auto 20px;
+  }
+  .we-do .we-do__container .we-do__row {
+    padding: 29px 0 0 0;
+    flex-direction: column;
+    gap: 29px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__photo {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-size: 100% 140%;
+    background-position: 50% 35%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item {
+    height: 25%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible:has(.we-do__button.active) {
+    height: 25%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible {
+    padding: 0 46px 0 21px;
+    margin: 15px 25px 15px 0;
+    height: 60%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item:has(.we-do__invisible.active) {
+    height: 100%;
+  }
+}
+@media (max-width: 459.98px) {
+  .we-do .we-do__container {
+    padding: 52px 16px 31px;
+  }
+  .we-do .we-do__container .block-header {
+    padding: 18px 0 17px 0;
+  }
+  .we-do .we-do__container .block-header .block-header__line {
+    margin: 0 auto 17px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__photo {
+    width: 100%;
+    background-size: 100% 180%;
+    background-position: 50% 40%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list {
+    width: 100%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item {
+    height: 40%;
+    margin: 0 0 6.5% 0;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible {
+    padding: 0 10px 0 15px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible .we-do__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__visible:has(.we-do__button.active) {
+    height: 40%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item .we-do__invisible {
+    padding: 0 46px 0 21px;
+    margin: 9px 25px 9px 0;
+    height: 47%;
+  }
+  .we-do .we-do__container .we-do__row .we-do__list .we-do__item:has(.we-do__invisible.active) {
+    height: 100%;
   }
 }
