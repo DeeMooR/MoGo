@@ -45,6 +45,11 @@ $(function(){
         $(window).resize(function(){
         $('.we-do__list').height($('.we-do__list').width()/(570/483));
         });
+
+        $('.our-work__grid').height($('.our-work__grid').width()/(2));
+        $(window).resize(function(){
+        $('.our-work__grid').height($('.our-work__grid').width()/(2));
+    });
     }
 
     if (window.innerWidth <= 767.98) {
@@ -62,12 +67,22 @@ $(function(){
         $(window).resize(function(){
         $('.we-do__invisible').height($('.we-do__invisible').width()/(2.8));
         });
+
+        $('.our-work__grid').height($('.our-work__grid').width()/(1));
+        $(window).resize(function(){
+        $('.our-work__grid').height($('.our-work__grid').width()/(1));
+    });
     }
 
     if (window.innerWidth <= 459.98) {
         $('.we-do__photo').height($('.we-do__photo').width()/(288/142));
         $(window).resize(function(){
         $('.we-do__photo').height($('.we-do__photo').width()/(288/142));
+        });
+
+        $('.our-work__grid').height($('.our-work__grid').width()/(2/5));
+        $(window).resize(function(){
+        $('.our-work__grid').height($('.our-work__grid').width()/(2/5));
         });
     }
     if (window.innerWidth <= 399.98) {
