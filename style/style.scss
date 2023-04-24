@@ -2224,3 +2224,168 @@ header {
         }
     }
 }
+
+.people-say {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/people-say.png');
+    background-size: auto, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .people-say__container {
+        padding: 42px 16px 42px;
+        .people-say__row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 42px 0 0 0;
+            gap: 42px 0;
+            .people-say__item {
+                display: flex;
+                justify-content: space-between;
+                width: 550/1170*100%;
+                .people-say__icon {
+                    width: 130/550*100%;
+                    padding: 20px 0 0 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .people-say__description {
+                    width: 370/550*100%;
+                    padding: 11px 0 22px 0;
+                    .service__name {
+                        margin: 0 0 11px 0;
+                    }
+                    .people-say__profession {
+                        margin: 0 0 30px 0;
+                    }
+                    .people-say__line {
+                        width: 70px;
+                        height: 4px;
+                        background-color: #F38281;
+                        margin: 0 0 54px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1199.98px) {
+    .people-say {
+        .people-say__container {
+            padding: 29px 16px 29px;
+            .people-say__row {
+                padding: 28px 0 0 0;
+                gap:  28px 0;
+                .people-say__item {
+                    width: 454/992*100%;
+                    .people-say__icon {
+                        width: 88/454*100%;
+                        padding: 14px 0 0 0;
+                    }
+                    .people-say__description {
+                        width: 316/454*100%;
+                        padding: 7px 0 19px 0;
+                        .service__name {
+                            margin: 0 0 5px 0;
+                        }
+                        .people-say__profession {
+                            margin: 0 0 18px 0;
+                        }
+                        .people-say__line {
+                            width: 47px;
+                            margin: 0 0 40px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:991.98px) {
+    .people-say {
+        .people-say__container {
+            .people-say__row {
+                .people-say__item {
+                    width: 47%;
+                    .people-say__icon {
+                        width: 23%;
+                    }
+                    .people-say__description {
+                        width: 70%;
+                        padding: 7px 0 19px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:767.98px) {
+    .people-say {
+        .people-say__container {
+            .people-say__row {
+                .people-say__item {
+                    width: 48.5%;
+                    .people-say__icon {
+                        width: 25%;
+                        padding: 14px 0 0 0;
+                    }
+                    .people-say__description {
+                        width: 70%;
+                        .people-say__line {
+                            margin: 0 0 24px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:575.98px) {
+    .people-say {
+        .people-say__container {
+            .people-say__row {
+                justify-content: center;
+                .people-say__item {
+                    flex-direction: column;
+                    width: 90%;
+                    max-width: 400px;
+                    .people-say__icon {
+                        width: 88/288*100%;
+                        padding: 0;
+                        margin: 0 auto;
+                    }
+                    .people-say__description {
+                        width: 90%;
+                        padding: 28px 0 11px 0;
+                        text-align: center;
+                        margin: 0 auto;
+                        .service__name {
+                            margin: 0 0 5px 0;
+                        }
+                        .people-say__profession {
+                            margin: 0 0 18px 0;
+                        }
+                        .people-say__line {
+                            width: 134px;
+                            margin: 0 auto 33px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:459.98px) {
+    .people-say {
+        .people-say__container {
+            .people-say__row {
+                .people-say__item {
+                    width: 100%;
+                    .people-say__description {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

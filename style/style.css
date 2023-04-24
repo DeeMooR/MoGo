@@ -2038,3 +2038,144 @@ header .header__container .header__burger {
     line-height: 16px;
   }
 }
+.people-say {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/people-say.png");
+  background-size: auto, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.people-say .people-say__container {
+  padding: 42px 16px 42px;
+}
+.people-say .people-say__container .people-say__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 42px 0 0 0;
+  gap: 42px 0;
+}
+.people-say .people-say__container .people-say__row .people-say__item {
+  display: flex;
+  justify-content: space-between;
+  width: 47.0085470085%;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__icon {
+  width: 23.6363636364%;
+  padding: 20px 0 0 0;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__icon img {
+  width: 100%;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+  width: 67.2727272727%;
+  padding: 11px 0 22px 0;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__description .service__name {
+  margin: 0 0 11px 0;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__profession {
+  margin: 0 0 30px 0;
+}
+.people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__line {
+  width: 70px;
+  height: 4px;
+  background-color: #F38281;
+  margin: 0 0 54px 0;
+}
+
+@media (max-width: 1199.98px) {
+  .people-say .people-say__container {
+    padding: 29px 16px 29px;
+  }
+  .people-say .people-say__container .people-say__row {
+    padding: 28px 0 0 0;
+    gap: 28px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item {
+    width: 45.7661290323%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__icon {
+    width: 19.3832599119%;
+    padding: 14px 0 0 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+    width: 69.6035242291%;
+    padding: 7px 0 19px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .service__name {
+    margin: 0 0 5px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__profession {
+    margin: 0 0 18px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__line {
+    width: 47px;
+    margin: 0 0 40px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .people-say .people-say__container .people-say__row .people-say__item {
+    width: 47%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__icon {
+    width: 23%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+    width: 70%;
+    padding: 7px 0 19px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .people-say .people-say__container .people-say__row .people-say__item {
+    width: 48.5%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__icon {
+    width: 25%;
+    padding: 14px 0 0 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+    width: 70%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__line {
+    margin: 0 0 24px 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .people-say .people-say__container .people-say__row {
+    justify-content: center;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item {
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__icon {
+    width: 30.5555555556%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+    width: 90%;
+    padding: 28px 0 11px 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .service__name {
+    margin: 0 0 5px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__profession {
+    margin: 0 0 18px 0;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description .people-say__line {
+    width: 134px;
+    margin: 0 auto 33px;
+  }
+}
+@media (max-width: 459.98px) {
+  .people-say .people-say__container .people-say__row .people-say__item {
+    width: 100%;
+  }
+  .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
+    width: 100%;
+  }
+}
