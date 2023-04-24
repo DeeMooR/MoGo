@@ -98,6 +98,7 @@ h6 {
     .block-header-2 {
         padding: 18px 0 33px 0;
         .block-header__line {
+            width: 148px;
             margin: 0 auto 33px;
         }
     }
@@ -2641,6 +2642,69 @@ header {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+.blog-location {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/blog.png');
+    background-size: auto, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .blog-location__container {
+        padding: 42px 16px 42px;
+        .blog-location__icon {
+            width: 42px;
+            margin: 0 auto 20px;
+            img {
+                width: 100%;
+            }
+        }
+        .blog-location__title {
+            margin: 0 0 42px 0;
+            text-align: center;
+            color: #F38281;
+        }
+        .block-location__line {
+            width: 170px;
+            height: 4px;
+            margin: 0 auto;
+            background-color: #F38281;
+        }
+    }
+}
+@media (max-width:1199.98px) {
+    .blog-location {
+        .blog-location__container {
+            padding: 29px 16px 29px;
+            .blog-location__icon {
+                width: 29px;
+                margin: 0 auto 13px;
+            }
+            .blog-location__title {
+                margin: 0 0 27px 0;
+            }
+            .block-location__line {
+                width: 148px;
+            }
+        }
+    }
+}
+@media (max-width:459.98px) {
+    .blog-location {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/blog-mobile.png');
+        .blog-location__container {
+            padding: 42px 16px 42px;
+            .blog-location__icon {
+                width: 42px;
+                margin: 0 auto 26px;
+            }
+            .blog-location__title {
+                margin: 0 0 48px 0;
+            }
+            .block-location__line {
+                width: 134px;
             }
         }
     }
