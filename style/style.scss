@@ -2709,3 +2709,475 @@ header {
         }
     }
 }
+
+.social {
+    background-color: #F8F8F8;
+    .social__container {
+        padding: 42px 16px 0;
+        .social__row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0 42px 0;
+            border-bottom: 1px solid #C6CBCD;
+            .social__item1 {
+                width: 370/1170*100%;
+                padding: 36px 0 0 0;
+                .item1-social__logo {
+                    width: 150/370*100%;
+                    margin: 0 0 43px 0;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .item1-social__text {
+                    margin: 0 0 36px 0;
+                    color: #C6CBCD;
+                }
+                .item1-social__folowwers {
+                    font-family: 'Raleway';
+                    font-style: italic;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin: 0 0 19px 0;
+                    .item1-social__15 {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                    }
+                    .item1-social__k {
+                        font-style: normal;
+                        font-weight: 700;
+                    }
+                }
+                .item1-social__line {
+                    width: 100%;
+                    height: 1px;
+                    background-color: #C6CBCD;
+                }
+                .item1-social__network {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 43px;
+                    width: 100%;
+                    margin: 0 0 37px 0;
+                    .item1-social__follow-us {
+                        font-family: 'Raleway';
+                        font-style: italic;
+                        font-size: 13px;
+                        line-height: 15px;
+                        color: #C6CBCD;
+                    }
+                    .item1-social__icons {
+                        display: flex;
+                        gap: 11px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .item1-social__form {
+                    display: flex;
+                    height: 55px;
+                    .item1-social__email {
+                        width: 234/370*100%;
+                        padding: 0 0 0 70/370*100%;
+                        border: 1px solid #C6CBCD;
+                        border-right: 0;
+                        font-family: 'Raleway';
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #C6CBCD;
+                        background-color: #fff;
+                        &::-moz-placeholder {color: #C6CBCD;}
+                        &::-webkit-input-placeholder {color: #C6CBCD;}
+                    }
+                    .item1-social__button {
+                        width: 136/370*100%;
+                        font-family: 'Raleway';
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        background-color: #95E1D3;
+                    }
+                }
+            }
+            .social__item2 {
+                width: 470/1170*100%;
+                padding: 36px 0 0 0;
+                .item2-social__name {
+                    font-family: 'Raleway';
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin: 0 0 36px 0;
+                }
+                .item2-social__item {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 0 20px 0;
+                    &:last-child {
+                        margin: 0;
+                    }
+                    .item2-social__photo {
+                        width: 170/470*100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .item2-social__description {
+                        padding: 3px 0 0 0;
+                        width: 270/470*100%;
+                        .item2-social__title {
+                            font-family: 'Raleway';
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 21px;
+                            margin: 0 0 13px 0;
+                        }
+                        .item2-social__date {
+                            font-family: 'Raleway';
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+            }
+            .social__item3 {
+                width: 270/1170*100%;
+                padding: 36px 0 0 0;
+                .item3-social__name {
+                    font-family: 'Raleway';
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin: 0 0 36px 0;
+                }
+                .item3-social__photos {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 0 38px 0;
+                    img {
+                        width: 1/3*100%;
+                    }
+                }
+                .item3-social__more {
+                    font-family: 'Raleway';
+                    font-size: 13px;
+                    line-height: 15px;
+                    text-decoration-line: underline;
+                    color: #2D3033;
+                }
+            }
+        }
+    }
+}
+@media (max-width:991.98px) {
+    .social {
+        .social__container {
+            .social__row {
+                .social__item1 {
+                    padding: 18px 0 0 0;
+                    .item1-social__logo {
+                        margin: 0 0 25px 0;
+                    }
+                    .item1-social__text {
+                        margin: 0 0 20px 0;
+                    }
+                    .item1-social__folowwers {
+                        font-size: 12px;
+                        margin: 0 0 8px 0;
+                        .item1-social__15 {
+                            font-size: 21px;
+                        }
+                    }
+                    .item1-social__network {
+                        margin: 0 0 20px 0;
+                        .item1-social__icons {
+                            gap: 8px;
+                            img {
+                                width: 14px;
+                            }
+                        }
+                    }
+                    .item1-social__form {
+                        height: 37px;
+                        .item1-social__email {
+                            width: 60%;
+                            padding: 0 0 0 8%;
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                        .item1-social__button {
+                            width: 40%;
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+                .social__item2 {
+                    padding: 18px 0 0 0;
+                    .item2-social__name {
+                        margin: 0 0 18px 0;
+                    }
+                    .item2-social__item {
+                        .item2-social__photo {
+                            width: 30%;
+                        }
+                        .item2-social__description {
+                            padding: 0;
+                            width: 65%;
+                        }
+                    }
+                }
+                .social__item3 {
+                    padding: 18px 0 0 0;
+                    .item3-social__name {
+                        margin: 0 0 18px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:991.98px) {
+    .social {
+        .social__container {
+            .social__row {
+                .social__item1 {
+                    padding: 18px 0 0 0;
+                    .item1-social__logo {
+                        margin: 0 0 25px 0;
+                    }
+                    .item1-social__text {
+                        margin: 0 0 20px 0;
+                    }
+                    .item1-social__folowwers {
+                        font-size: 12px;
+                        margin: 0 0 8px 0;
+                        .item1-social__15 {
+                            font-size: 21px;
+                        }
+                    }
+                    .item1-social__network {
+                        margin: 0 0 20px 0;
+                        .item1-social__icons {
+                            gap: 8px;
+                            img {
+                                width: 14px;
+                            }
+                        }
+                    }
+                    .item1-social__form {
+                        height: 37px;
+                        .item1-social__email {
+                            width: 60%;
+                            padding: 0 0 0 8%;
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                        .item1-social__button {
+                            width: 40%;
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+                .social__item2 {
+                    padding: 18px 0 0 0;
+                    .item2-social__name {
+                        margin: 0 0 18px 0;
+                    }
+                    .item2-social__item {
+                        .item2-social__photo {
+                            width: 30%;
+                        }
+                        .item2-social__description {
+                            padding: 0;
+                            width: 65%;
+                        }
+                    }
+                }
+                .social__item3 {
+                    padding: 18px 0 0 0;
+                    .item3-social__name {
+                        margin: 0 0 18px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:767.98px) {
+    .social {
+        .social__container {
+            padding: 34px 16px 0;
+            .social__row {
+                padding: 0 0 32px 0;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 80%;
+                max-width: 500px;
+                margin: 0 auto;
+                .social__item1 {
+                    width: 100%;
+                    text-align: center;
+                    justify-content: center;
+                    .item1-social__logo {
+                        width: 25%;
+                        margin: 0 auto 25px;
+                    }
+                    .item1-social__text {
+                        margin: 0 0 18px 0;
+                    }
+                    .item1-social__folowwers {
+                        font-size: 14px;
+                        margin: 0 0 13px 0;
+                        .item1-social__15 {
+                            font-size: 24px;
+                        }
+                    }
+                    .item1-social__line {
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                    .item1-social__network {
+                        width: 80%;
+                        height: 29px;
+                        font-size: 12px;
+                        line-height: 14px;
+                        margin: 0 auto 25px;
+                        .item1-social__icons {
+                            gap: 11px;
+                            img {
+                                width: 16px;
+                            }
+                        }
+                    }
+                    .item1-social__form {
+                        height: 98px;
+                        flex-direction: column;
+                        gap: 24px;
+                        .item1-social__email {
+                            width: 80%;
+                            margin: 0 auto;
+                            height: 37px;
+                            padding: 0 0 0 26/288*100%;
+                            font-size: 14px;
+                            line-height: 116px;
+                            border: 1px solid #C6CBCD;
+                        }
+                        .item1-social__button {
+                            width: 80%;
+                            margin: 0 auto;
+                            height: 37px;
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .social__item2 {
+                    width: 100%;
+                    padding: 23px 0 0 0;
+                    .item2-social__name {
+                        margin: 0 0 23px 0;
+                        text-align: center;
+                    }
+                    .item2-social__item {
+                        .item2-social__photo {
+                            width: 83/288*100%;
+                        }
+                        .item2-social__description {
+                            padding: 0;
+                            width: 192/288*100%;
+                        }
+                    }
+                }
+                .social__item3 {
+                    width: 100%;
+                    padding: 31px 0 0 0;
+                    .item3-social__name {
+                        margin: 0 0 31px 0;
+                        text-align: center;
+                    }
+                    .item3-social__photos {
+                        margin: 0 0 32px 0;
+                    }
+                    .item3-social__more {
+                        font-size: 12px;
+                        line-height: 14px;
+                        display: block;  
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:469.98px) {
+    .social {
+        .social__container {
+            .social__row {
+                width: 100%;
+                .social__item1 {
+                    .item1-social__line {
+                        width: 100%;
+                    }
+                    .item1-social__network {
+                        width: 100%;
+                    }
+                    .item1-social__form {
+                        .item1-social__email {
+                            width: 100%;
+                        }
+                        .item1-social__button {
+                            width: 100%;
+                        }
+                    }
+                }
+                .social__item2 {
+                    .item2-social__item {
+                        .item2-social__description {
+                            .item2-social__title {
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                            .item2-social__date {
+                                font-size: 12px;
+                                line-height: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #F8F8F8;
+    .footer__container {
+        padding: 17px 16px 17px;
+        .footer__text {
+            font-family: 'Raleway';
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+            color: #2D3033;
+            text-align: center;
+        }
+    }
+}
+@media (max-width:469.98px) {
+    footer {
+        .footer__container {
+            padding: 15px 16px 15px;
+        }
+    }
+}

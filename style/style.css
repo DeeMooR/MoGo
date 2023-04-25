@@ -2467,3 +2467,443 @@ header .header__container .header__burger {
     width: 134px;
   }
 }
+.social {
+  background-color: #F8F8F8;
+}
+.social .social__container {
+  padding: 42px 16px 0;
+}
+.social .social__container .social__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 42px 0;
+  border-bottom: 1px solid #C6CBCD;
+}
+.social .social__container .social__row .social__item1 {
+  width: 31.6239316239%;
+  padding: 36px 0 0 0;
+}
+.social .social__container .social__row .social__item1 .item1-social__logo {
+  width: 40.5405405405%;
+  margin: 0 0 43px 0;
+}
+.social .social__container .social__row .social__item1 .item1-social__logo img {
+  width: 100%;
+}
+.social .social__container .social__row .social__item1 .item1-social__text {
+  margin: 0 0 36px 0;
+  color: #C6CBCD;
+}
+.social .social__container .social__row .social__item1 .item1-social__folowwers {
+  font-family: "Raleway";
+  font-style: italic;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 19px 0;
+}
+.social .social__container .social__row .social__item1 .item1-social__folowwers .item1-social__15 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+.social .social__container .social__row .social__item1 .item1-social__folowwers .item1-social__k {
+  font-style: normal;
+  font-weight: 700;
+}
+.social .social__container .social__row .social__item1 .item1-social__line {
+  width: 100%;
+  height: 1px;
+  background-color: #C6CBCD;
+}
+.social .social__container .social__row .social__item1 .item1-social__network {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 43px;
+  width: 100%;
+  margin: 0 0 37px 0;
+}
+.social .social__container .social__row .social__item1 .item1-social__network .item1-social__follow-us {
+  font-family: "Raleway";
+  font-style: italic;
+  font-size: 13px;
+  line-height: 15px;
+  color: #C6CBCD;
+}
+.social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons {
+  display: flex;
+  gap: 11px;
+}
+.social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons img {
+  width: 100%;
+}
+.social .social__container .social__row .social__item1 .item1-social__form {
+  display: flex;
+  height: 55px;
+}
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__email {
+  width: 63.2432432432%;
+  padding: 0 0 0 18.9189189189%;
+  border: 1px solid #C6CBCD;
+  border-right: 0;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #C6CBCD;
+  background-color: #fff;
+}
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__email::-moz-placeholder {
+  color: #C6CBCD;
+}
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__email::-webkit-input-placeholder {
+  color: #C6CBCD;
+}
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__button {
+  width: 36.7567567568%;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #95E1D3;
+}
+.social .social__container .social__row .social__item2 {
+  width: 40.1709401709%;
+  padding: 36px 0 0 0;
+}
+.social .social__container .social__row .social__item2 .item2-social__name {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 36px 0;
+}
+.social .social__container .social__row .social__item2 .item2-social__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+.social .social__container .social__row .social__item2 .item2-social__item:last-child {
+  margin: 0;
+}
+.social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo {
+  width: 36.170212766%;
+}
+.social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo img {
+  width: 100%;
+}
+.social .social__container .social__row .social__item2 .item2-social__item .item2-social__description {
+  padding: 3px 0 0 0;
+  width: 57.4468085106%;
+}
+.social .social__container .social__row .social__item2 .item2-social__item .item2-social__description .item2-social__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 0 13px 0;
+}
+.social .social__container .social__row .social__item2 .item2-social__item .item2-social__description .item2-social__date {
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 15px;
+}
+.social .social__container .social__row .social__item3 {
+  width: 23.0769230769%;
+  padding: 36px 0 0 0;
+}
+.social .social__container .social__row .social__item3 .item3-social__name {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 36px 0;
+}
+.social .social__container .social__row .social__item3 .item3-social__photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 38px 0;
+}
+.social .social__container .social__row .social__item3 .item3-social__photos img {
+  width: 33.3333333333%;
+}
+.social .social__container .social__row .social__item3 .item3-social__more {
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  color: #2D3033;
+}
+
+@media (max-width: 991.98px) {
+  .social .social__container .social__row .social__item1 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__logo {
+    margin: 0 0 25px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__text {
+    margin: 0 0 20px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers {
+    font-size: 12px;
+    margin: 0 0 8px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers .item1-social__15 {
+    font-size: 21px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network {
+    margin: 0 0 20px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons {
+    gap: 8px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons img {
+    width: 14px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form {
+    height: 37px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__email {
+    width: 60%;
+    padding: 0 0 0 8%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__button {
+    width: 40%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .social .social__container .social__row .social__item2 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__name {
+    margin: 0 0 18px 0;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo {
+    width: 30%;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description {
+    padding: 0;
+    width: 65%;
+  }
+  .social .social__container .social__row .social__item3 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item3 .item3-social__name {
+    margin: 0 0 18px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .social .social__container .social__row .social__item1 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__logo {
+    margin: 0 0 25px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__text {
+    margin: 0 0 20px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers {
+    font-size: 12px;
+    margin: 0 0 8px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers .item1-social__15 {
+    font-size: 21px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network {
+    margin: 0 0 20px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons {
+    gap: 8px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons img {
+    width: 14px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form {
+    height: 37px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__email {
+    width: 60%;
+    padding: 0 0 0 8%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__button {
+    width: 40%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .social .social__container .social__row .social__item2 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__name {
+    margin: 0 0 18px 0;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo {
+    width: 30%;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description {
+    padding: 0;
+    width: 65%;
+  }
+  .social .social__container .social__row .social__item3 {
+    padding: 18px 0 0 0;
+  }
+  .social .social__container .social__row .social__item3 .item3-social__name {
+    margin: 0 0 18px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .social .social__container {
+    padding: 34px 16px 0;
+  }
+  .social .social__container .social__row {
+    padding: 0 0 32px 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .social .social__container .social__row .social__item1 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__logo {
+    width: 25%;
+    margin: 0 auto 25px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__text {
+    margin: 0 0 18px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers {
+    font-size: 14px;
+    margin: 0 0 13px 0;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__folowwers .item1-social__15 {
+    font-size: 24px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__line {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network {
+    width: 80%;
+    height: 29px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto 25px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons {
+    gap: 11px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons img {
+    width: 16px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form {
+    height: 98px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__email {
+    width: 80%;
+    margin: 0 auto;
+    height: 37px;
+    padding: 0 0 0 9.0277777778%;
+    font-size: 14px;
+    line-height: 116px;
+    border: 1px solid #C6CBCD;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__button {
+    width: 80%;
+    margin: 0 auto;
+    height: 37px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .social .social__container .social__row .social__item2 {
+    width: 100%;
+    padding: 23px 0 0 0;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__name {
+    margin: 0 0 23px 0;
+    text-align: center;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo {
+    width: 28.8194444444%;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description {
+    padding: 0;
+    width: 66.6666666667%;
+  }
+  .social .social__container .social__row .social__item3 {
+    width: 100%;
+    padding: 31px 0 0 0;
+  }
+  .social .social__container .social__row .social__item3 .item3-social__name {
+    margin: 0 0 31px 0;
+    text-align: center;
+  }
+  .social .social__container .social__row .social__item3 .item3-social__photos {
+    margin: 0 0 32px 0;
+  }
+  .social .social__container .social__row .social__item3 .item3-social__more {
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 469.98px) {
+  .social .social__container .social__row {
+    width: 100%;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__line {
+    width: 100%;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__network {
+    width: 100%;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__email {
+    width: 100%;
+  }
+  .social .social__container .social__row .social__item1 .item1-social__form .item1-social__button {
+    width: 100%;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description .item2-social__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description .item2-social__date {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+footer {
+  background-color: #F8F8F8;
+}
+footer .footer__container {
+  padding: 17px 16px 17px;
+}
+footer .footer__container .footer__text {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  color: #2D3033;
+  text-align: center;
+}
+
+@media (max-width: 469.98px) {
+  footer .footer__container {
+    padding: 15px 16px 15px;
+  }
+}
