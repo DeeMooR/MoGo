@@ -661,9 +661,6 @@ header .header__container .header__burger {
     background-position: 45% 50%;
     background-repeat: no-repeat;
   }
-  .about .about__container .about__row .about__item.disabled {
-    pointer-events: none;
-  }
 }
 @media (max-width: 459.98px) {
   .about .about__container .about__row .about__item {
@@ -1114,6 +1111,9 @@ header .header__container .header__burger {
   }
 }
 @media (max-width: 767.98px) {
+  .we-do .we-do__container {
+    margin: 0 auto;
+  }
   .we-do .we-do__container .we-do__row {
     padding: 29px 0 0 0;
     flex-direction: column;

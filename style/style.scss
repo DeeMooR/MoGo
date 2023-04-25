@@ -705,9 +705,6 @@ header {
                     background-position: 45% 50%;
                     background-repeat: no-repeat;
                 }
-                &.disabled {
-                    pointer-events: none;
-                }
             }
         }
     }
@@ -1199,40 +1196,43 @@ header {
     }
 }
 @media (max-width:767.98px) {
-    .we-do .we-do__container {
-        .we-do__row {
-            padding: 29px 0 0 0;
-            flex-direction: column;
-            gap: 29px;
-            .we-do__photo {
-                width: 80%;
-                max-width: 400px;
-                margin: 0 auto;
-                background-size: 100% 140%;
-                background-position: 50% 35%;
-            }
-            .we-do__list {
-                width: 80%;
-                max-width: 400px;
-                margin: 0 auto;
-                .we-do__item {
-                    height: 25%;
-                    .we-do__visible {
-                        .we-do__title {
-                            font-size: 16px;
-                            line-height: 18px;
+    .we-do {
+        .we-do__container {
+            margin: 0 auto;
+            .we-do__row {
+                padding: 29px 0 0 0;
+                flex-direction: column;
+                gap: 29px;
+                .we-do__photo {
+                    width: 80%;
+                    max-width: 400px;
+                    margin: 0 auto;
+                    background-size: 100% 140%;
+                    background-position: 50% 35%;
+                }
+                .we-do__list {
+                    width: 80%;
+                    max-width: 400px;
+                    margin: 0 auto;
+                    .we-do__item {
+                        height: 25%;
+                        .we-do__visible {
+                            .we-do__title {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+                            &:has(.we-do__button.active) {
+                                height: 25%;
+                            }
                         }
-                        &:has(.we-do__button.active) {
-                            height: 25%;
+                        .we-do__invisible {
+                            padding: 0 46px 0 21px;
+                            margin: 15px 25px 15px 0;
+                            height: 60%;
                         }
-                    }
-                    .we-do__invisible {
-                        padding: 0 46px 0 21px;
-                        margin: 15px 25px 15px 0;
-                        height: 60%;
-                    }
-                    &:has(.we-do__invisible.active) {
-                        height: 100%;
+                        &:has(.we-do__invisible.active) {
+                            height: 100%;
+                        }
                     }
                 }
             }
