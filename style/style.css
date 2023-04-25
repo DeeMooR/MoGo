@@ -4,6 +4,10 @@
   padding: 0px 16px;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   font-family: "Montserrat";
   font-weight: 700;
@@ -294,8 +298,8 @@ header .header__container .header__burger {
     gap: 0;
     justify-content: center;
     background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url("../img/home_mobile.png");
-    background-size: auto, 100% 125.5%;
-    background-position: 0 0, 0 -87px;
+    background-size: auto, 100% auto;
+    background-position: 0 0;
     background-repeat: no-repeat;
   }
   header .header__container .header__menu.active {
@@ -367,11 +371,6 @@ header .header__container .header__burger {
   }
   header .header__container .header__logo img {
     width: 54px;
-  }
-  header .header__container .header__menu {
-    background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url("../img/home_mobile.png");
-    background-size: auto, 100% auto;
-    background-position: 0 0;
   }
   header .header__container .header__burger {
     width: 24px;
@@ -506,7 +505,8 @@ header .header__container .header__burger {
 @media (max-width: 575.98px) {
   .home {
     background-image: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%), url("../img/home_mobile.png");
-    background-size: auto, 100% 130%;
+    background-size: auto, 100% auto;
+    background-position: 0 0;
   }
   .home .home__container {
     padding: 95px 16px 0;
@@ -535,10 +535,6 @@ header .header__container .header__burger {
   }
 }
 @media (max-width: 399.98px) {
-  .home {
-    background-size: auto, cover;
-    background-position: 0 0;
-  }
   .home .home__container .home__button {
     width: 100%;
   }
@@ -784,9 +780,6 @@ header .header__container .header__burger {
 .service .service__container .service__row .service__item .service__icon {
   width: 18.9189189189%;
 }
-.service .service__container .service__row .service__item .service__icon img {
-  width: 100%;
-}
 .service .service__container .service__row .service__item .service__description {
   width: 72.972972973%;
   padding: 11px 0 19px 0;
@@ -890,9 +883,6 @@ header .header__container .header__burger {
   height: auto;
   margin: 0 auto;
 }
-.design .design__container .design__photos .design__tablet img {
-  width: 100%;
-}
 .design .design__container .design__photos .design__tablet:before {
   content: "";
   position: absolute;
@@ -912,9 +902,6 @@ header .header__container .header__burger {
   height: auto;
   right: 16.4957264957%;
   bottom: -21.7142857143%;
-}
-.design .design__container .design__photos .design__phone img {
-  width: 100%;
 }
 .design .design__container .design__photos .design__phone:before {
   content: "";
@@ -1613,9 +1600,6 @@ header .header__container .header__burger {
 .geometry .geometry__container .geometry__row .geometry__item {
   width: 10.8547008547%;
 }
-.geometry .geometry__container .geometry__row .geometry__item img {
-  width: 100%;
-}
 
 @media (max-width: 1199.98px) {
   .geometry .geometry__container {
@@ -1868,9 +1852,6 @@ header .header__container .header__burger {
   justify-content: center;
   align-items: center;
 }
-.slider2 .slider2__container .swiper .slider2__row .slider2__item .item-slider2__icon img {
-  width: 100%;
-}
 .slider2 .slider2__container .swiper .slider2__row .slider2__item .item-slider2__info {
   padding: 6px 0 5px 0;
   width: 79.381443299%;
@@ -2064,9 +2045,6 @@ header .header__container .header__burger {
   width: 23.6363636364%;
   padding: 20px 0 0 0;
 }
-.people-say .people-say__container .people-say__row .people-say__item .people-say__icon img {
-  width: 100%;
-}
 .people-say .people-say__container .people-say__row .people-say__item .people-say__description {
   width: 67.2727272727%;
   padding: 11px 0 22px 0;
@@ -2193,9 +2171,6 @@ header .header__container .header__burger {
 }
 .blog .blog__container .blog__row .blog__item .blog__photo {
   position: relative;
-}
-.blog .blog__container .blog__row .blog__item .blog__photo img {
-  width: 100%;
 }
 .blog .blog__container .blog__row .blog__item .blog__photo .blog__date {
   position: absolute;
@@ -2419,9 +2394,6 @@ header .header__container .header__burger {
   width: 42px;
   margin: 0 auto 20px;
 }
-.blog-location .blog-location__container .blog-location__icon img {
-  width: 100%;
-}
 .blog-location .blog-location__container .blog-location__title {
   margin: 0 0 42px 0;
   text-align: center;
@@ -2487,9 +2459,6 @@ header .header__container .header__burger {
   width: 40.5405405405%;
   margin: 0 0 43px 0;
 }
-.social .social__container .social__row .social__item1 .item1-social__logo img {
-  width: 100%;
-}
 .social .social__container .social__row .social__item1 .item1-social__text {
   margin: 0 0 36px 0;
   color: #C6CBCD;
@@ -2534,9 +2503,6 @@ header .header__container .header__burger {
   display: flex;
   gap: 11px;
 }
-.social .social__container .social__row .social__item1 .item1-social__network .item1-social__icons img {
-  width: 100%;
-}
 .social .social__container .social__row .social__item1 .item1-social__form {
   display: flex;
   height: 55px;
@@ -2570,6 +2536,12 @@ header .header__container .header__burger {
   color: #fff;
   background-color: #95E1D3;
 }
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__button:hover {
+  background-color: #87D2C4;
+}
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__button:active {
+  background-color: #5C958A;
+}
 .social .social__container .social__row .social__item2 {
   width: 40.1709401709%;
   padding: 36px 0 0 0;
@@ -2591,9 +2563,6 @@ header .header__container .header__burger {
 }
 .social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo {
   width: 36.170212766%;
-}
-.social .social__container .social__row .social__item2 .item2-social__item .item2-social__photo img {
-  width: 100%;
 }
 .social .social__container .social__row .social__item2 .item2-social__item .item2-social__description {
   padding: 3px 0 0 0;
@@ -2862,7 +2831,7 @@ header .header__container .header__burger {
     text-align: center;
   }
 }
-@media (max-width: 469.98px) {
+@media (max-width: 459.98px) {
   .social .social__container .social__row {
     width: 100%;
   }
@@ -2902,7 +2871,7 @@ footer .footer__container .footer__text {
   text-align: center;
 }
 
-@media (max-width: 469.98px) {
+@media (max-width: 459.98px) {
   footer .footer__container {
     padding: 15px 16px 15px;
   }

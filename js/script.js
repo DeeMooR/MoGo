@@ -4,7 +4,6 @@ $(document).ready(function() {
 		$('body').toggleClass('lock');
 	});
 });
-
 $(document).ready(function() {
 	$('.header__item').click(function(event) {
         if (window.innerWidth <= 767.98) {
@@ -27,12 +26,16 @@ $(document).ready(function() {
 	});
 });
 
+/*
 const elements = document.getElementsByClassName('about__item');
 if (window.innerWidth <= 575.98) {
     for (let i = 0; i < elements.length; i++) {
     elements[i].classList.add('disabled');
     }
 }
+*/
+
+$('body').on('touchstart', function() {});
 
 $(function(){
     if (window.innerWidth >= 768) {
