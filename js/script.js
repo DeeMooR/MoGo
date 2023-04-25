@@ -35,7 +35,21 @@ if (window.innerWidth <= 575.98) {
 }
 */
 
-$('body').on('touchstart', function() {});
+// Добавление отступов к блоку we-do
+if (window.innerWidth >= 768) {
+    const buttons = document.querySelectorAll('.we-do__button');
+    const container = document.querySelector('.we-do__container');
+    buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        if (!button.classList.contains('active')) {
+            const currentMarginBottom = parseInt(getComputedStyle(container).marginBottom);
+            container.style.marginBottom = `${currentMarginBottom + 120}px`;
+        } else {
+            container.style.marginBottom = '';
+        }
+    });
+    });
+}
 
 $(function(){
     if (window.innerWidth >= 768) {

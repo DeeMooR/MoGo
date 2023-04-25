@@ -6,6 +6,21 @@
 img {
     width: 100%;
 }
+
+// @extend %flex-center;
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// $pink
+$pink: #F38281;
+$yellow: #F9EFCF;
+$orange: #F4BF87;
+$blue: #95E1D3;
+$white8: #F8F8F8;
+
+
 h1 {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -52,7 +67,7 @@ h6 {
         width: 170px;
         height: 4px;
         margin: 0 auto;
-        background-color: #F38281;
+        background-color: $pink;
     }
 }
 .block-header-2 {
@@ -62,7 +77,7 @@ h6 {
         width: 170px;
         height: 4px;
         margin: 0 auto 38px;
-        background-color: #F38281;
+        background-color: $pink;
     }
 }
 @media (max-width:1199.98px) {
@@ -163,9 +178,7 @@ header {
             .header__list {
                 display: flex;
                 li {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @extend %flex-center;
                     width: 114px;
                     a {
                         font-family: 'Raleway';
@@ -174,7 +187,7 @@ header {
                         color: #fff;
                         position: relative;
                         &:hover {
-                            color: #F4BF87;
+                            color: $orange;
                             transition: color 0.3s ease 0s;
                         }
                         &::after { 
@@ -185,7 +198,7 @@ header {
                             display: block;
                             height: 1px;
                             width: 0;
-                            background: #F4BF87;
+                            background: $orange;
                             transition: width 0.3s ease 0s, left 0.3s ease 0s;
                           }
                         &:hover::after { 
@@ -420,9 +433,7 @@ header {
         .home__button {
             width: 370px;
             height: 80px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             border: 4px solid #fff;
             background-color: transparent;
             color: #fff;
@@ -447,10 +458,10 @@ header {
                 .slider-home__line {
                     width: 100%;
                     height: 4px;
-                    background-color: #F9EFCF;
+                    background-color: $yellow;
                     margin: 0 0 22px 0;
                     &.active {
-                        background-color: #F38281;
+                        background-color: $pink;
                     }
                 }
                 p {
@@ -587,7 +598,7 @@ header {
                 background-position: center;
                 background-repeat: no-repeat;
                 &:hover {
-                    background: #95E1D3;
+                    background: $blue;
                     &:before {
                         content: '';
                         position: absolute;
@@ -715,7 +726,7 @@ header {
 }
 
 .numbers {
-    background-color: #95E1D3;
+    background-color: $blue;
     .numbers__container {
         font-family: 'Raleway';
         color: #fff;
@@ -1043,7 +1054,8 @@ header {
 
 .we-do {
     .we-do__container {
-        padding: 42px 16px 114px;
+        padding: 42px 16px 24px;
+        margin: 0 auto 90px;
         .we-do__row {
             display: flex;
             justify-content: space-between;
@@ -1118,7 +1130,7 @@ header {
                             background-color: #F5F5F5;
                         }
                         &::-webkit-scrollbar-thumb {
-                            background-color: #95E1D3;
+                            background-color: $blue;
                         }
                     }
                     &:has(.we-do__invisible.active) {
@@ -1279,7 +1291,7 @@ header {
 
 
 .slider1 {
-    background-color: #F8F8F8;
+    background-color: $white8;
     .slider1__container {
         padding: 42px 16px 42px;
         .swiper {
@@ -1291,10 +1303,8 @@ header {
                     justify-content: space-between;
                     .item-slider1__icon {
                         width: 170/970*100%;
-                        border: 2px solid #95E1D3;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        border: 2px solid $blue;
+                        @extend %flex-center;
                         img {
                             width: 100/170*100%;
                         }
@@ -1318,7 +1328,7 @@ header {
                                 position: absolute;
                                 width: 70/644*100%;
                                 height: 4px;
-                                background-color: #F38281;
+                                background-color: $pink;
                                 top: 20px;
                                 left: -126/644*100%;
                             }
@@ -1544,7 +1554,7 @@ header {
                     .team__block-icon {
                         width: 42px;
                         height: 42px;
-                        background-color: #F9EFCF;
+                        background-color: $yellow;
                         .team__icon1 {
                             width: 100%;
                             height: 100%;
@@ -1570,7 +1580,7 @@ header {
                             background-size: 100% 100%;
                         }
                         &.team__block-icon:hover {
-                            background-color: #F38281;
+                            background-color: $pink;
                         }
                         &.team__block-icon1:hover {
                             .team__icon1 {
@@ -1724,7 +1734,7 @@ header {
 }
 
 .geometry {
-    background-color: #F8F8F8;
+    background-color: $white8;
     .geometry__container {
         padding: 42px 16px 42px;
         .geometry__row {
@@ -1985,9 +1995,7 @@ header {
                     justify-content: space-between;
                     .item-slider2__icon {
                         width: 170/970*100%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        @extend %flex-center;
                     }
                     .item-slider2__info {
                         padding: 6px 0 5px 0;
@@ -2008,7 +2016,7 @@ header {
                                 position: absolute;
                                 width: 70/644*100%;
                                 height: 4px;
-                                background-color: #F38281;
+                                background-color: $pink;
                                 top: 20px;
                                 left: -126/644*100%;
                             }
@@ -2213,7 +2221,7 @@ header {
                     .people-say__line {
                         width: 70px;
                         height: 4px;
-                        background-color: #F38281;
+                        background-color: $pink;
                         margin: 0 0 54px 0;
                     }
                 }
@@ -2345,14 +2353,12 @@ header {
                         height: 80px;
                         left: -15px;
                         bottom: 25px;
-                        background-color: #95E1D3;
+                        background-color: $blue;
                         font-family: 'Raleway';
                         line-height: 20px;
                         color: #fff;
-                        display: flex;
+                        @extend %flex-center;
                         flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
                         .blog__date-1 {
                             font-weight: 700;
                             font-size: 34px;
@@ -2587,13 +2593,13 @@ header {
         .blog-location__title {
             margin: 0 0 42px 0;
             text-align: center;
-            color: #F38281;
+            color: $pink;
         }
         .block-location__line {
             width: 170px;
             height: 4px;
             margin: 0 auto;
-            background-color: #F38281;
+            background-color: $pink;
         }
     }
 }
@@ -2634,7 +2640,7 @@ header {
 }
 
 .social {
-    background-color: #F8F8F8;
+    background-color: $white8;
     .social__container {
         padding: 42px 16px 0;
         .social__row {
@@ -2715,11 +2721,9 @@ header {
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 21px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
+                        @extend %flex-center;
                         color: #fff;
-                        background-color: #95E1D3;
+                        background-color: $blue;
                         &:hover {
                             background-color: #87D2C4;
                         }
@@ -3075,7 +3079,7 @@ header {
 }
 
 footer {
-    background-color: #F8F8F8;
+    background-color: $white8;
     .footer__container {
         padding: 17px 16px 17px;
         .footer__text {

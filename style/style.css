@@ -8,6 +8,12 @@ img {
   width: 100%;
 }
 
+.social .social__container .social__row .social__item1 .item1-social__form .item1-social__button, .blog .blog__container .blog__row .blog__item .blog__photo .blog__date, .slider2 .slider2__container .swiper .slider2__row .slider2__item .item-slider2__icon, .slider1 .slider1__container .swiper .slider1__row .slider1__item .item-slider1__icon, .home .home__container .home__button, header .header__container .header__menu .header__list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-family: "Montserrat";
   font-weight: 700;
@@ -175,9 +181,6 @@ header .header__container .header__menu .header__list {
   display: flex;
 }
 header .header__container .header__menu .header__list li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 114px;
 }
 header .header__container .header__menu .header__list li a {
@@ -407,9 +410,6 @@ header .header__container .header__burger {
 .home .home__container .home__button {
   width: 370px;
   height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 4px solid #fff;
   background-color: transparent;
   color: #fff;
@@ -977,7 +977,8 @@ header .header__container .header__burger {
   }
 }
 .we-do .we-do__container {
-  padding: 42px 16px 114px;
+  padding: 42px 16px 24px;
+  margin: 0 auto 90px;
 }
 .we-do .we-do__container .we-do__row {
   display: flex;
@@ -1209,9 +1210,6 @@ header .header__container .header__burger {
 .slider1 .slider1__container .swiper .slider1__row .slider1__item .item-slider1__icon {
   width: 17.5257731959%;
   border: 2px solid #95E1D3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .slider1 .slider1__container .swiper .slider1__row .slider1__item .item-slider1__icon img {
   width: 58.8235294118%;
@@ -1848,9 +1846,6 @@ header .header__container .header__burger {
 }
 .slider2 .slider2__container .swiper .slider2__row .slider2__item .item-slider2__icon {
   width: 17.5257731959%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .slider2 .slider2__container .swiper .slider2__row .slider2__item .item-slider2__info {
   padding: 6px 0 5px 0;
@@ -2182,10 +2177,7 @@ header .header__container .header__burger {
   font-family: "Raleway";
   line-height: 20px;
   color: #fff;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .blog .blog__container .blog__row .blog__item .blog__photo .blog__date .blog__date-1 {
   font-weight: 700;
@@ -2530,9 +2522,6 @@ header .header__container .header__burger {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #fff;
   background-color: #95E1D3;
 }
